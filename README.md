@@ -40,12 +40,13 @@ To ensure the optimal performance and availability of our streaming platform, we
 
 Amazon CloudWatch was selected for several reasons:
 
-Comprehensive monitoring: CloudWatch provides a unified view of our entire AWS environment, allowing us to monitor metrics, logs, and events from various AWS services.
-Custom metrics: We can create custom metrics to track specific aspects of our application performance, such as video playback time or API latency.
-Alerting: CloudWatch allows us to set up custom alerts based on metric thresholds, enabling us to proactively address issues before they impact our users.
-Other technologies considered:
+- **Comprehensive monitoring**: CloudWatch provides a unified view of our entire AWS environment, allowing us to monitor metrics, logs, and events from various AWS services.
+- **Custom metrics**: We can create custom metrics to track specific aspects of our application performance, such as video playback time or API latency.
+- **Alerting**: CloudWatch allows us to set up custom alerts based on metric thresholds, enabling us to proactively address issues before they impact our users.
 
-Prometheus: While Prometheus is a popular open-source monitoring solution, CloudWatch's deep integration with other AWS services and its managed nature made it a more attractive option for our use case.
+**Other technologies considered**:
+
+- **Prometheus**: While Prometheus is a popular open-source monitoring solution, CloudWatch's deep integration with other AWS services and its managed nature made it a more attractive option for our use case.
 
 ### Storage: Amazon S3
 For storing our vast amounts of streaming data, we required a highly scalable, durable, and cost-effective storage solution. Key business challenges included ensuring data durability, managing data growth, and minimizing storage costs.
