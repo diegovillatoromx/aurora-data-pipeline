@@ -64,12 +64,12 @@ To convert our data into actionable insights, we needed a powerful and user-frie
 
 Amazon QuickSight was selected due to:
 
-Interactive visualizations: QuickSight allows us to create highly customized dashboards with a wide variety of visualizations, such as charts, tables, and maps.
-Integration with OpenSearch Service: The native integration with OpenSearch Service simplifies the creation of dashboards and exploratory analysis, enabling users to explore data quickly and efficiently.
-Business intelligence features: QuickSight offers advanced business intelligence features, such as predictive analytics and machine learning, empowering us to discover patterns and trends in our data.
-Other technologies considered:
+- **Interactive visualizations**: QuickSight allows us to create highly customized dashboards with a wide variety of visualizations, such as charts, tables, and maps.
+- **Integration with OpenSearch Service**: The native integration with OpenSearch Service simplifies the creation of dashboards and exploratory analysis, enabling users to explore data quickly and efficiently.
+- **Business intelligence features**: QuickSight offers advanced business intelligence features, such as predictive analytics and machine learning, empowering us to discover patterns and trends in our data.
 
-Tableau: While Tableau is a popular visualization tool, QuickSight offered better integration with the rest of our AWS stack and a more flexible pricing model.
+**Other technologies considered**:
+**Tableau**: While Tableau is a popular visualization tool, QuickSight offered better integration with the rest of our AWS stack and a more flexible pricing model.
 
 ### Search and Analysis: Amazon OpenSearch Service
 For real-time search and in-depth analysis of our logs, we needed a highly scalable and customizable search and analytics service. Key challenges included indexing large volumes of data, performing complex searches, and optimizing query performance.
