@@ -25,14 +25,15 @@ When selecting a database for our streaming platform, we needed a highly perform
 
 After evaluating various options, including traditional on-premises databases and other cloud-based solutions, we chose Amazon Aurora for several reasons:
 
-Performance: Aurora's ability to handle high write throughput and low latency queries was critical for our real-time analytics needs.
-Scalability: Its ability to scale compute and storage independently allowed us to accommodate fluctuating workloads without impacting performance.
-Reliability: Aurora's built-in replication and high availability features ensured that our data was always accessible, even in the event of a failure.
-Compatibility: Its compatibility with PostgreSQL and MySQL allowed us to leverage our existing skillsets and migrate our existing database schemas with minimal effort.
+- **Performance**: Aurora's ability to handle high write throughput and low latency queries was critical for our real-time analytics needs.
+- **Scalability**: Its ability to scale compute and storage independently allowed us to accommodate fluctuating workloads without impacting performance.
+- **Reliability**: Aurora's built-in replication and high availability features ensured that our data was always accessible, even in the event of a failure.
+- **Compatibility**: Its compatibility with PostgreSQL and MySQL allowed us to leverage our existing skillsets and migrate our existing database schemas with minimal effort.
+
 Other technologies considered:
 
-Amazon RDS for PostgreSQL: While RDS for PostgreSQL offers many of the same features as Aurora, Aurora's performance and scalability made it a better fit for our demanding workloads.
-Amazon DynamoDB: DynamoDB is a NoSQL database that is well-suited for highly scalable applications, but its lack of relational capabilities and higher cost made it less suitable for our use case.
+- **Amazon RDS for PostgreSQL**: While RDS for PostgreSQL offers many of the same features as Aurora, Aurora's performance and scalability made it a better fit for our demanding workloads.
+- **Amazon DynamoDB**: DynamoDB is a NoSQL database that is well-suited for highly scalable applications, but its lack of relational capabilities and higher cost made it less suitable for our use case.
 
 ### Monitoring: Amazon CloudWatch
 To ensure the optimal performance and availability of our streaming platform, we needed a robust monitoring solution. Key business challenges included detecting and responding to performance issues promptly, ensuring service level agreements (SLAs) were met, and gaining visibility into the overall health of our infrastructure.
