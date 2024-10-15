@@ -17,3 +17,5 @@ By combining these powerful AWS tools, we've built a data analytics solution tha
 - **Measure the impact of marketing campaigns**: Evaluate the effectiveness of campaigns and adjust marketing strategies accordingly.
 
 This solution provides us with a competitive advantage by enabling us to make data-driven decisions in real-time, ultimately improving user satisfaction and driving business growth.
+
+## Design Components
