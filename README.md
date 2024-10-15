@@ -57,3 +57,40 @@ Cost-effective: S3's pay-per-use pricing model allows us to optimize storage cos
 Other technologies considered:
 
 Amazon EFS: While EFS is well-suited for file-based workloads, S3's object storage model was a better fit for our unstructured data.
+
+
+### Visualization: Amazon QuickSight
+To convert our data into actionable insights, we needed a powerful and user-friendly visualization tool. Key challenges included creating custom dashboards, exploring data interactively, and effectively communicating insights to non-technical stakeholders.
+
+Amazon QuickSight was selected due to:
+
+Interactive visualizations: QuickSight allows us to create highly customized dashboards with a wide variety of visualizations, such as charts, tables, and maps.
+Integration with OpenSearch Service: The native integration with OpenSearch Service simplifies the creation of dashboards and exploratory analysis, enabling users to explore data quickly and efficiently.
+Business intelligence features: QuickSight offers advanced business intelligence features, such as predictive analytics and machine learning, empowering us to discover patterns and trends in our data.
+Other technologies considered:
+
+Tableau: While Tableau is a popular visualization tool, QuickSight offered better integration with the rest of our AWS stack and a more flexible pricing model.
+
+### Search and Analysis: Amazon OpenSearch Service
+For real-time search and in-depth analysis of our logs, we needed a highly scalable and customizable search and analytics service. Key challenges included indexing large volumes of data, performing complex searches, and optimizing query performance.
+
+Amazon OpenSearch Service was selected due to:
+
+Performance: OpenSearch Service offers exceptional performance for real-time search and analysis of large datasets, which is crucial for our streaming platform.
+Flexibility: OpenSearch Service is highly customizable, allowing us to tailor the index to our specific needs and perform complex queries.
+Integration with other services: The native integration with other AWS services, such as QuickSight and Lambda, simplifies the creation of data processing pipelines.
+Other technologies considered:
+
+Elasticsearch: While Elasticsearch is a popular search and analytics solution, OpenSearch Service offered better integration with other AWS services and enhanced security features.
+
+### Ad-hoc Queries: Amazon Athena
+To perform exploratory analysis and answer specific questions about our data, we needed an ad-hoc query tool that was easy to use and cost-effective. Key challenges included executing SQL queries against large volumes of data stored in S3 without managing a data warehouse infrastructure.
+
+Amazon Athena was selected due to:
+
+Serverless architecture: Athena is a serverless service, meaning we don't need to manage any infrastructure, significantly reducing costs and complexity.
+Standard SQL: Athena supports standard SQL, making it easy for data analysts familiar with SQL to get started.
+Pay-per-query pricing: The pay-per-query pricing model of Athena allows us to pay only for the resources consumed by our queries.
+Other technologies considered:
+
+Amazon Redshift: While Redshift is a powerful data warehouse, Athena was a more cost-effective and flexible option for ad-hoc queries.
