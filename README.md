@@ -75,13 +75,11 @@ Amazon QuickSight was selected due to:
 For real-time search and in-depth analysis of our logs, we needed a highly scalable and customizable search and analytics service. Key challenges included indexing large volumes of data, performing complex searches, and optimizing query performance.
 
 Amazon OpenSearch Service was selected due to:
-
-Performance: OpenSearch Service offers exceptional performance for real-time search and analysis of large datasets, which is crucial for our streaming platform.
-Flexibility: OpenSearch Service is highly customizable, allowing us to tailor the index to our specific needs and perform complex queries.
-Integration with other services: The native integration with other AWS services, such as QuickSight and Lambda, simplifies the creation of data processing pipelines.
-Other technologies considered:
-
-Elasticsearch: While Elasticsearch is a popular search and analytics solution, OpenSearch Service offered better integration with other AWS services and enhanced security features.
+- **Performance**: OpenSearch Service offers exceptional performance for real-time search and analysis of large datasets, which is crucial for our streaming platform.
+- **Flexibility**: OpenSearch Service is highly customizable, allowing us to tailor the index to our specific needs and perform complex queries.
+- **Integration with other services**: The native integration with other AWS services, such as QuickSight and Lambda, simplifies the creation of data processing pipelines.
+**Other technologies considered**:
+**Elasticsearch**: While Elasticsearch is a popular search and analytics solution, OpenSearch Service offered better integration with other AWS services and enhanced security features.
 
 ### Ad-hoc Queries: Amazon Athena
 To perform exploratory analysis and answer specific questions about our data, we needed an ad-hoc query tool that was easy to use and cost-effective. Key challenges included executing SQL queries against large volumes of data stored in S3 without managing a data warehouse infrastructure.
