@@ -1,8 +1,8 @@
 # Introducing our Aurora-powered Data Pipeline for Real-time Streaming Analytics
 
-Our streaming platform generates millions of detailed records daily in Amazon Aurora, capturing every user interaction. These logs are a treasure trove of information that allows us to deeply understand our audience's behavior, identify trends, and optimize the viewing experience.
+*Our streaming platform generates millions of detailed records daily* in Amazon Aurora, capturing every user interaction. These logs are a treasure trove of information that allows us to deeply understand our audience's behavior, identify trends, and optimize the viewing experience.
 
-To fully leverage this valuable resource, we've implemented a robust data analytics pipeline. Aurora logs are streamed to Amazon CloudWatch, where they are processed and sent to Amazon S3 for long-term storage.
+To fully leverage this valuable resource, we've implemented a robust data analytics pipeline. Aurora logs are streamed to **Amazon CloudWatch**, where they are processed and sent to **Amazon S3** for long-term storage.
 
 Amazon OpenSearch Service indexes these logs, creating a highly optimized index that enables us to perform complex searches and generate real-time analytics. For instance, we can quickly identify the most popular videos, detect viewing patterns, and analyze the impact of new features on user engagement.
 
