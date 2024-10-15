@@ -53,12 +53,13 @@ For storing our vast amounts of streaming data, we required a highly scalable, d
 
 Amazon S3 was chosen for several reasons:
 
-Scalability: S3 offers virtually unlimited storage capacity, allowing us to store and manage petabytes of data.
-Durability: S3's 99.999999999% durability ensures that our data is protected against data loss.
-Cost-effective: S3's pay-per-use pricing model allows us to optimize storage costs based on our specific usage patterns.
-Other technologies considered:
+- **Scalability**: S3 offers virtually unlimited storage capacity, allowing us to store and manage petabytes of data.
+- **Durability**: S3's 99.999999999% durability ensures that our data is protected against data loss.
+- **Cost-effective**: S3's pay-per-use pricing model allows us to optimize storage costs based on our specific usage patterns.
 
-Amazon EFS: While EFS is well-suited for file-based workloads, S3's object storage model was a better fit for our unstructured data.
+**Other technologies considered**:
+
+**Amazon EFS**: While EFS is well-suited for file-based workloads, S3's object storage model was a better fit for our unstructured data.
 
 
 ### Visualization: Amazon QuickSight
