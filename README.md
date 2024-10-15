@@ -12,7 +12,8 @@ Finally, we use Amazon Athena to run ad-hoc SQL queries against the data stored 
 
 By combining these powerful AWS tools, we've built a data analytics solution that allows us to:
 
-Solve business problems: Identify and resolve technical issues that impact the user experience, such as playback errors or video quality problems.
-Optimize content strategy: Recommend relevant content to users, personalize the viewing experience, and improve monetization.
-Measure the impact of marketing campaigns: Evaluate the effectiveness of campaigns and adjust marketing strategies accordingly.
+- **Solve business problems**: Identify and resolve technical issues that impact the user experience, such as playback errors or video quality problems.
+- **Optimize content strategy**: Recommend relevant content to users, personalize the viewing experience, and improve monetization.
+- **Measure the impact of marketing campaigns**: Evaluate the effectiveness of campaigns and adjust marketing strategies accordingly.
+
 This solution provides us with a competitive advantage by enabling us to make data-driven decisions in real-time, ultimately improving user satisfaction and driving business growth.
