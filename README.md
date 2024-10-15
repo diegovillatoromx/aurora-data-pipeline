@@ -4,9 +4,9 @@
 
 To fully leverage this valuable resource, we've implemented a robust data analytics pipeline. Aurora logs are streamed to **Amazon CloudWatch**, where they are processed and sent to **Amazon S3** for long-term storage.
 
-Amazon OpenSearch Service indexes these logs, creating a highly optimized index that enables us to perform complex searches and generate real-time analytics. For instance, we can quickly identify the most popular videos, detect viewing patterns, and analyze the impact of new features on user engagement.
+**Amazon OpenSearch Service** indexes these logs, creating a highly optimized index that enables us to perform complex searches and generate real-time analytics. For instance, we can quickly identify the most popular videos, detect viewing patterns, and analyze the impact of new features on user engagement.
 
-Amazon QuickSight provides us with an intuitive visual interface to explore this data. We create custom dashboards displaying key metrics such as average viewing time, churn rate, and geographic distribution of our audience. These visualizations allow us to identify opportunities for improvement and make more informed business decisions.
+**Amazon QuickSigh**t provides us with an intuitive visual interface to explore this data. We create custom dashboards displaying key metrics such as average viewing time, churn rate, and geographic distribution of our audience. These visualizations allow us to identify opportunities for improvement and make more informed business decisions.
 
 Finally, we use Amazon Athena to run ad-hoc SQL queries against the data stored in S3. This enables us to quickly answer specific questions, such as analyzing the impact of a marketing campaign on retention metrics or identifying the most valuable user segments.
 
