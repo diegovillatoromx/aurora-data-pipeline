@@ -85,10 +85,9 @@ Amazon OpenSearch Service was selected due to:
 To perform exploratory analysis and answer specific questions about our data, we needed an ad-hoc query tool that was easy to use and cost-effective. Key challenges included executing SQL queries against large volumes of data stored in S3 without managing a data warehouse infrastructure.
 
 Amazon Athena was selected due to:
+- **Serverless architecture**: Athena is a serverless service, meaning we don't need to manage any infrastructure, significantly reducing costs and complexity.
+- **Standard SQL**: Athena supports standard SQL, making it easy for data analysts familiar with SQL to get started.
+- **Pay-per-query pricing**: The pay-per-query pricing model of Athena allows us to pay only for the resources consumed by our queries.
 
-Serverless architecture: Athena is a serverless service, meaning we don't need to manage any infrastructure, significantly reducing costs and complexity.
-Standard SQL: Athena supports standard SQL, making it easy for data analysts familiar with SQL to get started.
-Pay-per-query pricing: The pay-per-query pricing model of Athena allows us to pay only for the resources consumed by our queries.
-Other technologies considered:
-
-Amazon Redshift: While Redshift is a powerful data warehouse, Athena was a more cost-effective and flexible option for ad-hoc queries.
+**Other technologies considered:**
+**Amazon Redshift**: While Redshift is a powerful data warehouse, Athena was a more cost-effective and flexible option for ad-hoc queries.
